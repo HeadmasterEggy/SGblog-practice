@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.sangeng.domain.mapper")
+@MapperScan("com.sangeng.domain.mapper")
 public class SGBlogApplication {
     public static void main(String[] args) {
         SpringApplication.run(SGBlogApplication.class, args);
